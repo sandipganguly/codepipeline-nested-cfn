@@ -1,18 +1,18 @@
 {
   "Parameters" : {
     "TemplatePath": "TEMPLATE_PATH_PLACEHOLDER",
-    "VPCID": "vpc-00a7d24de445b129e"
-    "PrivateSubnet1": "subnet-045b9bf2aae2e20c4",
-    "PrivateSubnet2": "subnet-073ba40d286b8ce9f",
-    "PublicSubnet1": "subnet-0eac79b71a200d572",
-    "PublicSubnet2": "subnet-0f505016d0bcac6cb",
-    "S3BucketName": "codepipeline-nested-cfn",
-    "KeyPair": "macbook",
-    "AMIId": "ami-0323c3dd2da7fb37d",
+    "VPCID": "vpc-0594ec51cee8290e2"
+    "PrivateSubnet1": "subnet-0a75cb22a72bca05f"
+    "PrivateSubnet2": "subnet-00b2ab1b4cfeac0e7"
+    "PublicSubnet1": "subnet-0749b0ef9e4d3f834"
+    "PublicSubnet2": "subnet-0af7a39799697058a"
+    "S3BucketName": "nestedcfn-basestack-s3bucket-cjwfb0luh7so"
+    "KeyPair": "laptop",
+    "AMIId": "ami-0603cbe34fd08cb81"
     "WebInstanceType": "t2.large",
     "WebMinSize": "1",
     "WebMaxSize": "2",
-    "DBSubnetGroup": "nestedcfn-basestack-rdssubnetgroup-ez7lo7t5d1kp",
+    "DBSubnetGroup": "nestedcfn-basestack-rdssubnetgroup-9dbzokml2nmo"
     "DBUsername": "dbadmin",
     "DBPassword": "dbpAssw0rd",
     "DBInstanceType": "db.t2.small",
