@@ -17,15 +17,15 @@
   },
   {
   "ParameterKey": "PrivateSubnet2",
-  "ParameterValue": "172.21.1.192/26"
+  "ParameterValue": "172.21.1.193/26"
   },
   {
   "ParameterKey": "UATApprovalEmail",
-  "ParameterValue": "example@example.com"
+  "ParameterValue": "ganguly.sandip@gmail.com"
   },
   {
   "ParameterKey": "ProdApprovalEmail",
-  "ParameterValue": "example@example.com"
+  "ParameterValue": "ganguly.sandip@gmail.com"
   },
   {
   "ParameterKey": "TagPrefix",
