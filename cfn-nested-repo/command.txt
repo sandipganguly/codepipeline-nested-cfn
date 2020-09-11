@@ -1,0 +1,3 @@
+aws cloudformation create-stack --stack-name NestedCFN-BaseStack --template-body file://vpc-stack.yml --parameters file://vpc-params.json
+aws cloudformation create-change-set --stack-name NestedCFN-BaseStack --change-set-name NestedCFN-BaseStack_CS --template-body file://vpc-stack.yml --parameters file://vpc-params.json
+
